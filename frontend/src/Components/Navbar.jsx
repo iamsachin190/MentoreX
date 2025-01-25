@@ -10,19 +10,16 @@ export default function Navbar() {
             alt="Logo"
             className="h-12 w-12 object-contain rounded-full"
           />
-          <p className="ml-3">Ai Bot</p>
+          <p className="ml-3 font-bold text-larger  ">MentoreX</p>
         </div>
         <div>
-        <Link to="/login">
-          <button className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold shadow-xl transform hover:bg-gray-800 hover:scale-105 transition-transform duration-300 mr-3">
-            Login
-          </button>
-          </Link>
-          <Link to="/signup">
-          <button className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold shadow-xl transform hover:bg-gray-800 hover:scale-105 transition-transform duration-300">
-            Sign Up
-          </button>
-          </Link>
+        <div>
+  <button className="bg-black text-white font-bold text-lg px-7 py-2 rounded-full border-4 border-gray-500 shadow-md shadow-gray-900 active:shadow-none active:translate-y-2 active:border-gray-900">
+    Get Started
+  </button>
+</div>
+
+
         </div>
       </header>
     </nav>
